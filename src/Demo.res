@@ -2,7 +2,6 @@ let name = "Pedro"
 let lastName = "Castro"
 
 let o = name ++ "o"
-
 Js.log(name)
 Js.log(name ++ " " ++ lastName)
 Js.log(`Full Name: ${name} ${lastName}`)
