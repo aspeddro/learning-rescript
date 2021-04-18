@@ -2,19 +2,18 @@
   "name": "learning-rescript",
   "version": "0.1.0",
   "scripts": {
-    "re:build": "bsb -make-world -clean-world",
-    "re:watch": "bsb -make-world -clean-world -w",
-    "clean": "bsb -clean-world",
+    "rescript:build": "rescript build",
+    "rescript:watch": "bsb build -w",
+    "rescript:clean": "rescript clean",
     "nodemon": "nodemon $file"
   },
   "keywords": [
-    "BuckleScript"
+    "rescript"
   ],
   "type": "module",
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^9.0.1",
-    "nodemon": "^2.0.6"
+    "rescript": "^9.1.1"
   }
 }
