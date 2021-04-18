@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "rescript:build": "rescript build",
-    "rescript:watch": "bsb build -w",
+    "rescript:watch": "rescript build -w",
     "rescript:clean": "rescript clean",
     "nodemon": "nodemon $file"
   },
