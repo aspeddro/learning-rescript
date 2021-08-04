@@ -22,6 +22,7 @@ let myInt1: int = 5
 // Type alias
 type coordinates<'a> = ('a, 'a, 'a)
 
+// NOTE only int
 let coords: coordinates<int> = (10, 20, 30)
 
 let greetings = ["hello", "world", "how are you"]
@@ -37,12 +38,11 @@ type myPayloadResults<'errorType> = array<result<myPayload, 'errorType>>
 let payloadResults: myPayloadResults<string> = [
   Ok({data: "hi"}),
   Ok({data: "bye"}),
-  Error("Something wrong happened!")
+  Error("Something wrong happened!"),
 ]
 
 // Escape
 
-external convertToFloat : int => float = "%identity"
+external convertToFloat: int => float = "%identity"
 let age = 10
 let gpa = 2.1 +. convertToFloat(age)
-

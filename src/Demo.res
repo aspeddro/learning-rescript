@@ -8,9 +8,9 @@ Js.log(`Full Name: ${name} ${lastName}`)
 
 let age = ref(50); age := age.contents + 1
 Js.log(age.contents);
-
+Js.log("He")
 Js.log(5 + 10)
-Js.log(1.0 +. 5.0)
+Js.log(1.0 +. 5)
 
 // Object/Record
 type info = {user: string, age: int}
