@@ -33,5 +33,5 @@ Js.log(result)
 
 let myTuple = (1, 2, 3)
 
-Js.log(myTuple === (1,2,3)) // false
+Js.log(myTuple === (1, 2, 3)) // false
 Js.log(myTuple === myTuple) // true

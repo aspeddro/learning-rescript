@@ -27,9 +27,7 @@ let coords: coordinates<int> = (10, 20, 30)
 
 let greetings = ["hello", "world", "how are you"]
 
-type result<'a, 'b> =
-  | Ok('a)
-  | Error('b)
+type result<'a, 'b> = Ok('a) | Error('b)
 
 type myPayload = {data: string}
 

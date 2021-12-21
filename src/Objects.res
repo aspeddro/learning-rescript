@@ -1,6 +1,6 @@
 let me = {
   "age": 30,
-  "name": "pedro"
+  "name": "pedro",
 }
 Js.log(me["age"]) // Acess objects
 

@@ -7,11 +7,12 @@ Hello! This project allows you to quickly get started with ReScript using Reason
 ```bash
 # for yarn
 yarn build
+
 # for npm
 npm run build
 ```
-
 # Build + Watch
+```
 
 ```bash
 # for yarn
@@ -20,4 +21,3 @@ yarn start
 # for npm
 npm run start
 ```
-

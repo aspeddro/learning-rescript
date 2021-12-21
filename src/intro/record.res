@@ -4,12 +4,12 @@
 // type declaration
 type person = {
   age: int,
-  name: string
+  name: string,
 }
 
 let me = {
   age: 20,
-  name: "Big ReScript"
+  name: "Big ReScript",
 }
 
 // Using module Me.res
@@ -22,10 +22,10 @@ let meNextYear = {...me, age: me.age + 1}
 // Mutable records
 type personMove = {
   mutable age: int,
-  name: string
+  name: string,
 }
 
 let mutMe = {name: "Pedro", age: 20}
 mutMe.age = mutMe.age + 1
 
-Js.log(`Now mutMe.age is ${mutMe.age -> Belt.Int.toString}`)
+Js.log(`Now mutMe.age is ${mutMe.age->Belt.Int.toString}`)
